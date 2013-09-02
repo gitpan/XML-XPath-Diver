@@ -42,6 +42,7 @@
          "requires" : {
             "Class::Builtin" : "0",
             "XML::XPath" : "0",
+            "parent" : "0",
             "perl" : "5.008005"
          }
       },
@@ -54,7 +55,7 @@
    "provides" : {
       "XML::XPath::Diver" : {
          "file" : "lib/XML/XPath/Diver.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -68,5 +69,5 @@
          "web" : "https://github.com/ytnobody/XML-XPath-Diver"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

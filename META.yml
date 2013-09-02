@@ -27,13 +27,14 @@ no_index:
 provides:
   XML::XPath::Diver:
     file: lib/XML/XPath/Diver.pm
-    version: 0.01
+    version: 0.02
 requires:
   Class::Builtin: 0
   XML::XPath: 0
+  parent: 0
   perl: 5.008005
 resources:
   bugtracker: https://github.com/ytnobody/XML-XPath-Diver/issues
   homepage: https://github.com/ytnobody/XML-XPath-Diver
   repository: git://github.com/ytnobody/XML-XPath-Diver.git
-version: 0.01
+version: 0.02
